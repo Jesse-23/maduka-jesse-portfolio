@@ -1,0 +1,58 @@
+import { Project } from '@/components/ProjectCard';
+
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: 'E-Commerce Platform',
+    description: 'A full-featured e-commerce platform with payment integration, user authentication, and real-time inventory management.',
+    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
+    tags: ['React', 'Node.js', 'Supabase', 'PayStack'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/madukajesse',
+  },
+  {
+    id: 2,
+    title: 'Fernworld',
+    description: 'A modern and responsive front-end solution for a fashion brand.',
+    image: '/images/fernworld.png',
+    tags: ['JavaScript', 'TailwindCSS', 'HTML/CSS'],
+    liveUrl: 'https://fashion-project-ten.vercel.app/',
+    githubUrl: 'https://github.com/Jesse-23',
+  },
+  {
+    id: 3,
+    title: 'Auréa',
+    description: 'A clean and user-friendly website for a skincare brand.',
+    image: '/images/skin-care-project.png',
+    tags: ['TailwindCSS', 'HTML/CSS', 'JavaScript'],
+    liveUrl: 'https://skin-care-project-beta.vercel.app/',
+    githubUrl: 'https://github.com/Jesse-23',
+  },
+  {
+    id: 4,
+    title: 'AI Content Generator',
+    description: 'An AI-powered content generation tool that helps create blog posts, social media content, and marketing copy.',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
+    tags: ['React', 'OpenAI', 'Node.js', 'TailwindCSS'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/Jesse-23',
+  },
+  {
+    id: 5,
+    title: 'Task Management App',
+    description: 'Collaborative task management tool with real-time updates and team features.',
+    image: '/images/task-management-app.png',
+    tags: ['HTML', 'JavaScript', 'TailwindCSS',],
+    liveUrl: 'https://task-management-app-jade-rho.vercel.app/',
+    githubUrl: 'https://github.com/Jesse-23',
+  },
+  {
+    id: 6,
+    title: 'PropertyHub',
+    description: 'A property listing and management platform with virtual tours, appointment scheduling, and mortgage calculator.',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop',
+    tags: ['React', 'ypeScript', 'TailwindCss', 'Supabase'],
+    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/Jesse-23',
+  },
+];
