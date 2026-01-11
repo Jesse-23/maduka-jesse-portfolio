@@ -50,7 +50,7 @@ export const projects: Project[] = [
     id: 6,
     title: 'PropertyHub',
     description: 'A property listing and management platform with virtual tours, appointment scheduling, and mortgage calculator.',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop',
+    image: '/images/propertyhub.png',
     tags: ['React', 'ypeScript', 'TailwindCss', 'Supabase'],
     liveUrl: 'https://example.com',
     githubUrl: 'https://github.com/Jesse-23',

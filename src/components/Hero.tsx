@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
 
-      <div className="section-container flex flex-col items-center text-center pt-20">
+      <div className="section-container flex flex-col items-center text-center pt-40">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ const Hero = () => {
           transition={{ delay: 0.4, duration: 0.5 }}
           className="text-base md:text-lg text-muted-foreground mb-8 max-w-2xl"
         >
-          I create beautiful, premium, functional web experiences that solve real-world problems and delight users.
+          I create beautiful, premium, and functional web experiences that solve real-world problems and delight users.
         </motion.p>
 
         <motion.div
