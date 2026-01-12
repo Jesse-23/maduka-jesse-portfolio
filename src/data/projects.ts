@@ -3,10 +3,10 @@ import { Project } from '@/components/ProjectCard';
 export const projects: Project[] = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-featured e-commerce platform with payment integration, user authentication, and real-time inventory management.',
-    image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop',
-    tags: ['React', 'Node.js', 'Supabase', 'PayStack'],
+    title: 'Luxe Bags',
+    description: 'Luxury meets logic: an elegant high-end storefront built for seamless shopping journeys.',
+    image: 'images/luxe-bags.png',
+    tags: ['TypeScript', 'React', 'Supabase', 'Stripe'],
     liveUrl: 'https://example.com',
     githubUrl: 'https://github.com/madukajesse',
   },
@@ -49,9 +49,9 @@ export const projects: Project[] = [
   {
     id: 6,
     title: 'PropertyHub',
-    description: 'A property listing and management platform with virtual tours, appointment scheduling, and mortgage calculator.',
+    description: 'A seamless all-in-one platform for effortless property operations and tenant management.',
     image: '/images/propertyhub.png',
-    tags: ['React', 'ypeScript', 'TailwindCss', 'Supabase'],
+    tags: ['React', 'TypeScript', 'Supabase', 'PayStack'],
     liveUrl: 'https://example.com',
     githubUrl: 'https://github.com/Jesse-23',
   },
