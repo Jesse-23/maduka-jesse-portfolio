@@ -30,7 +30,7 @@ const About = () => {
               <div className="w-full h-full rounded-full bg-gradient-to-br from-sky to-primary p-1">
                 <div className="w-full h-full rounded-full bg-card overflow-hidden">
                   <img 
-                    src="/images/jeje.jpg" 
+                    src="/images/jesse.jpeg" 
                     alt="Maduka Jesse" 
                     className="w-full h-full object-cover"
                   />
