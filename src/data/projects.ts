@@ -37,15 +37,6 @@ export const projects: Project[] = [
     liveUrl: 'https://fashion-project-ten.vercel.app/',
     githubUrl: 'https://github.com/Jesse-23',
   },
-  // {
-  //   id: 5,
-  //   title: 'AI Content Generator',
-  //   description: 'An AI-powered content generation tool that helps create blog posts, social media content, and marketing copy.',
-  //   image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop',
-  //   tags: ['React', 'OpenAI', 'Node.js', 'TailwindCSS'],
-  //   liveUrl: 'https://example.com',
-  //   githubUrl: 'https://github.com/Jesse-23',
-  // },
   {
     id: 6,
     title: 'Task Management App',
