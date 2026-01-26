@@ -38,6 +38,15 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jesse-23',
   },
   {
+    id: 5,
+    title: 'T-FX',
+    description: 'Global forex trading platform for professional traders and beginners.',
+    image: '/images/t-fx.png',
+    tags: ['React', 'TailwindCSS', 'Git'],
+    liveUrl: 'https://t-fx.vercel.app/',
+    githubUrl: 'https://github.com/Jesse-23',
+  },
+  {
     id: 6,
     title: 'Task Management App',
     description: 'Collaborative task management tool with real-time updates and team features.',
