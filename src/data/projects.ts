@@ -7,7 +7,7 @@ export const projects: Project[] = [
     description: 'Luxury meets logic: an elegant high-end storefront built for seamless shopping journeys.',
     image: 'images/luxe-bags.png',
     tags: ['TypeScript', 'React', 'Supabase', 'Stripe'],
-    liveUrl: 'https://example.com',
+    liveUrl: 'https://luxe-bags.vercel.app/',
     githubUrl: 'https://github.com/madukajesse',
   },
   {
