@@ -54,10 +54,9 @@ const Hero = () => {
           <a href="#contact" className="btn-outline text-sm px-5 py-2.5">
             Contact Me
           </a>
-          <a 
-            href="/resume.pdf" 
-            target="_blank" 
-            rel="noopener noreferrer"
+          <a
+            href="/resume.pdf"
+            download="Maduka-Jesse-Resume.pdf"
             className="px-5 py-2.5 text-sm bg-secondary text-secondary-foreground font-medium rounded-lg transition-all duration-300 hover:bg-secondary/80"
           >
             Resume
