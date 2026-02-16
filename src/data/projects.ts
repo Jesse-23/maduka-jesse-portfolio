@@ -48,11 +48,11 @@ export const projects: Project[] = [
   },
   {
     id: 6,
-    title: 'Task Management App',
-    description: 'Collaborative task management tool with real-time updates and team features.',
-    image: '/images/task-management-app.png',
-    tags: ['HTML', 'JavaScript', 'TailwindCSS',],
-    liveUrl: 'https://task-management-app-jade-rho.vercel.app/',
+    title: 'Kyrian Tech',
+    description: 'Find the laptop that fits your lifestyle',
+    image: '/images/kyrian-tech.png',
+    tags: ['React', 'Node.js', 'TailwindCSS',],
+    liveUrl: 'https://kyrian-tech-frontend.vercel.app/',
     githubUrl: 'https://github.com/Jesse-23',
   },
 ];
