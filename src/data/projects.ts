@@ -3,6 +3,15 @@ import { Project } from '@/components/ProjectCard';
 export const projects: Project[] = [
   {
     id: 1,
+    title: 'DriveFleet',
+    description: 'DriveFleet is a modern car rental platform for browsing and booking vehicles with ease.',
+    image: 'images/drivefleet.jpeg',
+    tags: ['TypeScript', 'Express', 'Node', 'PostgreSQL'],
+    liveUrl: 'https://drive-fleet.pxxl.click/',
+    githubUrl: 'https://github.com/madukajesse',
+  },
+  {
+    id: 2,
     title: 'Luxe Bags',
     description: 'Luxury meets logic: an elegant high-end storefront built for seamless shopping journeys.',
     image: 'images/luxe-bags.png',
@@ -11,7 +20,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/madukajesse',
   },
   {
-    id: 2,
+    id: 3,
     title: 'PropertyHub',
     description: 'A seamless all-in-one platform for effortless property operations and tenant management.',
     image: '/images/propertyhub.png',
@@ -20,7 +29,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jesse-23',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Auréa',
     description: 'A clean and user-friendly website for a skincare brand.',
     image: '/images/skin-care-project.png',
@@ -29,7 +38,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jesse-23',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Fernworld',
     description: 'A modern and responsive front-end solution for a fashion brand.',
     image: '/images/fernworld.png',
@@ -38,7 +47,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jesse-23',
   },
   {
-    id: 5,
+    id: 6,
     title: 'T-FX',
     description: 'Global forex trading platform for professional traders and beginners.',
     image: '/images/t-fx.png',
@@ -47,7 +56,7 @@ export const projects: Project[] = [
     githubUrl: 'https://github.com/Jesse-23',
   },
   {
-    id: 6,
+    id: 7,
     title: 'Kyrian Tech',
     description: 'Find the laptop that fits your lifestyle',
     image: '/images/kyrian-tech.png',
