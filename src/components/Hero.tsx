@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter, faTiktok } from '@fortawesome/free-brands-svg-icons';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Hero = () => {
   const socialLinks = [
@@ -30,7 +30,7 @@ const Hero = () => {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-xl md:text-2xl text-accent font-medium mb-6"
         >
-          Full Stack Developer
+          Full Stack Web Developer
         </motion.p>
 
         <motion.p
@@ -57,8 +57,9 @@ const Hero = () => {
           <a
             href="/resume.pdf"
             download="Maduka-Jesse-Resume.pdf"
-            className="px-5 py-2.5 text-sm bg-secondary text-secondary-foreground font-medium rounded-lg transition-all duration-300 hover:bg-secondary/80"
+            className="flex items-center gap-2 px-5 py-2.5 text-sm bg-secondary text-secondary-foreground font-medium rounded-lg transition-all duration-300 hover:bg-secondary/80"
           >
+            <FontAwesomeIcon icon={faDownload} />
             Resume
           </a>
         </motion.div>
