@@ -1,24 +1,34 @@
-# Maduka Jesse portfolio
+# Maduka Jesse — Full-Stack Developer Portfolio
 
-Implement exactly the screenshot and nothing else
+Welcome to the repository for my personal developer portfolio. This platform showcases my freelance work, technical skills, and ongoing software engineering projects. 
 
-This project was built with [Lovable](https://lovable.dev).
+Built with a focus on clean architecture, responsive design, and modern web standards.
 
-## Build with Lovable
+## 🚀 Tech Stack
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/b144f4af-fa53-4d5d-804e-cc250c1752aa).
+* **Frontend Framework:** React.js
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **Deployment:** Vercel
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+## ⚙️ Local Development
 
-## Development
+To run this project locally on your machine, follow these steps:
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Jesse-23/maduka-jesse-portfolio.git](https://github.com/Jesse-23/maduka-jesse-portfolio.git)
+   cd maduka-jesse-portfolio
+   npm install
+2. **Start the development server:**
+   npm run dev
+The site will be available at http://localhost:8080/ (or the port specified in your terminal).
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+💡 About This Project
+This codebase serves as the central hub for my digital brand. It is continually updated as I progress through my 365 Days of Code challenge, where I focus on building and sharing production-ready software in public.
+
+📬 Connect
+Live Site: maduka-jesse-portfolio.vercel.app
+
+GitHub: @Jesse-23
