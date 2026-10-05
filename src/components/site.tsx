@@ -194,7 +194,7 @@ export function Nav() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-10">
         <a href="/#top" className="text-[15px] font-semibold tracking-tight">
-          Jesse Maduka<span className="text-muted-foreground">.</span>
+          Maduka Jesse<span className="text-muted-foreground">.</span>
         </a>
         <nav className="hidden items-center gap-9 md:flex" aria-label="Primary">
           {navItems.map(([l, h]) => (
@@ -298,7 +298,7 @@ export function Footer() {
     <footer className="mx-auto max-w-7xl px-6 py-14 md:px-10">
       <div className="grid gap-10 md:grid-cols-12">
         <div className="md:col-span-5">
-          <p className="font-semibold">Jesse Maduka</p>
+          <p className="font-semibold">Maduka Jesse</p>
           <p className="text-sm text-muted-foreground">Full-Stack Developer</p>
         </div>
         <nav className="flex flex-col gap-2 text-sm md:col-span-3" aria-label="Footer">
@@ -317,7 +317,7 @@ export function Footer() {
           ))}
         </div>
       </div>
-      <p className="mt-14 border-t border-border pt-6 text-xs text-muted-foreground">© 2026 Jesse Maduka. All rights reserved.</p>
+      <p className="mt-14 border-t border-border pt-6 text-xs text-muted-foreground">© 2026 Maduka Jesse. All rights reserved.</p>
     </footer>
   );
 }
