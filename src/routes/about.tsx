@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Contact, Footer, Nav, Portrait, Reveal, SectionHead, TechChip, techStack } from "@/components/site";
+import { Contact, Footer, Nav, Reveal, SectionHead, TechChip, techStack } from "@/components/site";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -85,7 +85,7 @@ function About() {
             <h1 className="display animate-rise mt-6 text-[clamp(3rem,8vw,7rem)]">About Me</h1>
             <div className="mt-16 grid gap-12 lg:grid-cols-12 lg:items-center">
               <div className="animate-rise lg:col-span-5" style={{ animationDelay: "200ms" }}>
-                <Portrait className="aspect-[4/5] w-full max-w-md lg:max-w-none" />
+                <img src="/images/maduka-jesse.jpg" alt="Maduka Jesse" className="aspect-[4/5] w-full max-w-md lg:max-w-none rounded-2xl object-cover" />
               </div>
               <div className="animate-rise lg:col-span-6 lg:col-start-7" style={{ animationDelay: "350ms" }}>
                 <p className="text-2xl leading-snug tracking-tight md:text-3xl">

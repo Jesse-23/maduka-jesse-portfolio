@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { filterProjects, projects, type Project, type ProjectFilter } from "@/lib/projects";
-import { Arrow, Btn, Contact, Footer, Nav, Portrait, Reveal, SectionHead, TechChip, techStack } from "@/components/site";
+import { Arrow, Btn, Contact, Footer, Nav, Reveal, SectionHead, TechChip, techStack } from "@/components/site";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -50,14 +50,13 @@ function Hero() {
           </div>
         </div>
         <div className="animate-rise lg:col-span-5" style={{ animationDelay: "500ms" }}>
-          <Portrait className="mx-auto aspect-[4/5] w-full max-w-md lg:max-w-none" />
+          <img src="/images/maduka-jesse.jpg" alt="Maduka Jesse" className="mx-auto aspect-[4/5] w-full max-w-md lg:max-w-none rounded-2xl object-cover" />
         </div>
       </div>
     </section>
   );
 }
 
-/* ---------- work ---------- */
 /* ---------- work ---------- */
 
 function BrowserFrame({ p, tall = false }: { p: Project; tall?: boolean }) {
@@ -289,7 +288,6 @@ function Stack() {
   );
 }
 
-/* ---------- process ---------- */
 /* ---------- process ---------- */
 
 const steps = [
