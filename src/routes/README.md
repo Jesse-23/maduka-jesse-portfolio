@@ -1,21 +1,34 @@
-# Routes
+# Maduka Jesse — Full-Stack Developer Portfolio
 
-TanStack Start uses **file-based routing**. Every `.tsx` file in this directory
-defines a route. Do **not** create `src/pages/`, `src/routes/_app/index.tsx`, or
-`app/layout.tsx` — those are Next.js / Remix conventions. The only root layout
-is `src/routes/__root.tsx`.
+Welcome to the repository for my personal developer portfolio. This platform showcases my freelance work, technical skills, and ongoing software engineering projects. 
 
-## Conventions
+Built with a focus on clean architecture, responsive design, and modern web standards.
 
-| File | URL |
-| --- | --- |
-| `index.tsx` | `/` |
-| `about.tsx` | `/about` |
-| `users/index.tsx` | `/users` |
-| `users/$id.tsx` | `/users/:id` (dynamic — bare `$`, no curly braces) |
-| `posts/{-$category}.tsx` | `/posts/:category?` (optional segment) |
-| `files/$.tsx` | `/files/*` (splat — read via `_splat` param, never `*`) |
-| `_layout.tsx` | layout route (renders children via `<Outlet />`) |
-| `__root.tsx` | app shell — wraps every page; preserve `<Outlet />` |
+## 🚀 Tech Stack
 
-`routeTree.gen.ts` is auto-generated. Don't edit it by hand.
+* **Frontend Framework:** React.js
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS
+* **Build Tool:** Vite
+* **Deployment:** Vercel
+
+## ⚙️ Local Development
+
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Jesse-23/maduka-jesse-portfolio.git](https://github.com/Jesse-23/maduka-jesse-portfolio.git)
+   cd maduka-jesse-portfolio
+   npm install
+2. **Start the development server:**
+   npm run dev
+The site will be available at http://localhost:8080/ (or the port specified in your terminal).
+
+💡 About This Project
+This codebase serves as the central hub for my digital brand. It is continually updated as I progress through my 365 Days of Code challenge, where I focus on building and sharing production-ready software in public.
+
+📬 Connect
+Live Site: maduka-jesse-portfolio.vercel.app
+
+GitHub: @Jesse-23
