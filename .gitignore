@@ -30,3 +30,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Project-specific / Generated files
+.lovable
+AGENTS.md
