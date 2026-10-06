@@ -63,14 +63,18 @@ const roles = [
 ];
 
 const howIWork = [
-  "On-call incident response",
-  "First to answer when systems go down",
-  "Working under high pressure",
-  "Debugging live production issues",
-  "Problem solving",
-  "Shipping to deadline",
-  "Code review and feedback",
-  "Clear async communication",
+  "Understand the idea, users, business goals and requirements.",
+  "Plan the experience, structure and technical approach.",
+  "Develop the product with modern technologies and clean architecture.",
+  "Problem solving.",
+  "Debugging and improving existing systems.",
+  "Test the product, fix bugs and improve performance.",
+  "Deploy and refine the product.",
+  "On-call response.",
+  "Code review and feedback.",
+  "Ready to respond when systems go down.",
+  "Working under pressure.",
+  "Clear communication above all.",
 ];
 
 function About() {
