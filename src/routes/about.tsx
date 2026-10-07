@@ -99,7 +99,7 @@ function About() {
                 <p className="mt-8 text-lg leading-relaxed text-muted-foreground">
                   I work across the whole stack — from the interfaces people use on the web and on their phones, to the
                   backend services and databases behind them. I build real-world products with businesses and clients,
-                  turning their requirements into software that works reliably in production.
+                  turning their requirements into software that works reliably and efficiently in production.
                 </p>
                 <p className="mt-5 text-lg leading-relaxed text-muted-foreground">
                   I enjoy solving hard problems, and I keep learning so the products I ship stay modern and well built.
